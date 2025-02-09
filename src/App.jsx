@@ -5,10 +5,9 @@ import Functions from './Components/Functions';
 import HeroSection from './Components/HeroSection';
 import NavBar from './Components/NavBar'
 import Services from './Components/Services';
+import ToolsManagement from './Components/ToolsManagement';
 
 function App() {
-  
-
   return (
     <>
       <div className="bg-[#151515]">
@@ -26,6 +25,10 @@ function App() {
 
       <div>
         <Functions></Functions>
+      </div>
+
+      <div>
+        <ToolsManagement></ToolsManagement>
       </div>
     </>
   );
