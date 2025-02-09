@@ -1,8 +1,8 @@
 
-
 import './App.css'
+import Customer from './Components/Customer';
 import Functions from './Components/Functions';
-import HeroSection from './Components/HeroSection';
+import HeroSection from './Components/HeroSection'
 import NavBar from './Components/NavBar'
 import Services from './Components/Services';
 import ToolsManagement from './Components/ToolsManagement';
@@ -29,6 +29,9 @@ function App() {
 
       <div>
         <ToolsManagement></ToolsManagement>
+      </div>
+      <div>
+        <Customer></Customer>
       </div>
     </>
   );

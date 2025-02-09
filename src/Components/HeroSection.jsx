@@ -1,5 +1,6 @@
-import heroImg1 from "../assets/images/buildingmanagementimages1.jpg";
+import heroImg1 from "../assets/images/book.jpg";
 import { FaArrowRight } from "react-icons/fa";
+
 const HeroSection = () => {
   return (
     <div className="flex flex-col md:flex-row md:space-x-5">
