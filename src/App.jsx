@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import Functions from './Components/Functions';
 import HeroSection from './Components/HeroSection';
 import NavBar from './Components/NavBar'
 import Services from './Components/Services';
@@ -12,13 +13,19 @@ function App() {
     <>
       <div className="bg-[#151515]">
         <div className="container mx-auto px-5 pb-2">
-          <NavBar></NavBar>
+          <div className='pt-5'>
+            <NavBar></NavBar>
+          </div>
           <HeroSection></HeroSection>
         </div>
       </div>
 
       <div>
         <Services></Services>
+      </div>
+
+      <div>
+        <Functions></Functions>
       </div>
     </>
   );

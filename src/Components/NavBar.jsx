@@ -27,7 +27,7 @@ const NavBar = () => {
             >
               <li>
                 <details>
-                  <summary className="border rounded-xl">Produkty</summary>
+                  <summary className="border rounded-xl">Productivity</summary>
                   <ul className="p-2 w-56">
                     <li>
                       <a>Arcabit Home Security</a>
@@ -88,13 +88,13 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <img src={logo} className="w-56 h-12 text-xl" alt="" />
+          <img src={logo} className="w-56 h-12 text-xl text-white" alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal  px-5 space-x-2 font-bold">
             <li>
               <details>
-                <summary className="border rounded-xl">Produkty</summary>
+                <summary className="border rounded-xl">Productivity</summary>
                 <ul className="p-2 w-56 text-black">
                   <li>
                     <a>Arcabit Home Security</a>
